@@ -1,0 +1,44 @@
+@media all and (max-width: 1176px) {
+  .lesson-wrapper{
+    height: auto;
+  }
+
+  .extra{
+    height: 1200px;
+  }
+
+  .extra-content{
+    width: 100%;
+    tex
+  }
+  .header-right{
+    padding-right: auto;
+  }
+
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 600px) {
+.header-right{
+  display: none;
+}
+.main-wrapper h1{
+  font-size: 24px;
+}
+
+.extra{
+  height: 1300px;
+}
+
+.main-wrapper p{
+  font-size: 18px;
+}
+.footer-list{
+  display: none;
+}
+
+.lesson-wrapper{
+  height:auto;
+}
+}

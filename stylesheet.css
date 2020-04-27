@@ -1,0 +1,226 @@
+
+body {
+  font-family: "montserrat";
+}
+
+*{
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500374/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg);
+  background-position: center;
+  background-size: cover;
+
+  color: black;
+  padding-left: 200px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #273c75;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  height: 45px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right{
+  float:right;
+  padding-right: 50px;
+}
+.header-right a{
+  transition: all 0.5s;
+}
+
+.header-right p{
+  margin-top:22px;
+  color: #fff;
+}
+
+.but {
+  float: right;
+  margin-right: 10px;
+}
+
+.home{
+margin-right: 50px;
+}
+
+.team:hover {
+  background-color: rgba(241, 196, 15, 0.5);
+}
+
+.service:hover{
+  background-color: rgba(241, 196, 15, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #f6e58d;
+  display: block;
+}
+
+
+
+.main-wrapper h1 {
+  text-align: right;
+  padding-right: 100px;
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  animation-name: animasi;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animasi {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+.main-wrapper p {
+  font-family: Techno, Impact, sans-serif;
+  letter-spacing: 5px;
+  text-align: right;
+  font-size: 30px;
+  padding-right: 100px;
+  opacity: 1;
+  margin-bottom: 3px;
+  color: white;
+}
+
+.lesson-wrapper {
+  height: 400px;
+  padding-bottom: 70px;
+  background-color: #f5c817;
+
+}
+
+.heading {
+  padding-top: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-size:60px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.lesson-icon img{
+  width: 200px;
+  height: 120px;
+  object-fit:cover;
+}
+.lesson-icon p{
+  margin-top: 10px;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
+.lesson{
+  width: 220px;
+  height: 0px;
+  display: inline-block;
+}
+
+.lesson p{
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.lessons{
+  margin-left: 20px;
+  text-align: center;
+}
+
+.extra {
+  height: 600px;
+  width: 100%;
+  background-color: #e5e7e5;
+
+}
+
+.extra-top{
+  padding-top: 10px;
+}
+
+.extra-tittle h2{
+  text-align: center;
+  font-size: 60px;
+  font-style: oblique;
+  color: #22a6b3;
+}
+
+.extra-logo img{
+  width: 300px;
+  height:200px;
+  object-fit: cover;
+}
+
+.extra-content{
+  float:left;
+  width: 30%;
+  text-align: center;
+  padding-left: 20px
+}
+
+.extra-logo p{
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: #6F1E51;
+}
+
+.deskripsi{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+footer{
+ height: 100px;
+ background-color: #686de0;
+}
+
+.footer-logo{
+  height: 80px;
+  padding-top: 10px;
+}
+
+.footer-list span{
+  padding-right: 5px;
+}
+
+.footer-left{
+  float:left;
+}
+
+.footer-list{
+  padding-right: 20px;
+}
+.footer-list p{
+  float: right;
+  text-align: right;
+  padding-top: 25px;
+  margin-right: 20px;
+}
